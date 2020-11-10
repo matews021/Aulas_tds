@@ -1,0 +1,17 @@
+.container {
+    position: absolute;
+
+}
+
+.direito {
+    position: relative;
+    background-color: blueviolet;
+    float: right;
+
+}
+
+.esquerdo {
+    position: relative;
+    background-color: red;
+    float: left;
+}
