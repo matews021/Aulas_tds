@@ -1,3 +1,93 @@
-.topo {
-    background-color: teal;
+/* regras pertencentes ao 1º (primeira) linha */
+.topo{
+    background-color: lawngreen;
+}
+
+.row-topo{
+
+}
+/* regras pertencentes ao 2º (segundo) linha */
+.esquerda, .direita{
+    width: 50%;
+    float: left;
+}
+
+.esquerda p, .direita p{
+    color: white;
+}
+
+.img-destaque .esquerda{
+    background-color: black;
+}
+
+.img-destaque .direita{
+    background-color: red;
+}
+/* regras pertencentes ao 3º (terceiro) linha */
+.w-60{
+    width: 60%;
+    float: left;
+    background-color: yellow;
+}
+
+.w-40{
+    width: 40%;
+    float: left;
+    background-color: green;
+}
+/* regras pertencentes ao 4º (quarto) linha */
+.rodape{
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row-topo .w-40{
+    background-color: blue!important;
+}
+
+* {
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .w-40, .w-60 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .w-40, .w-60 {
+        width: 100%;
+    }
+
+    .coluna {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*
+    body {
+        background-color: violet;
+    }
+    */
+}
+
+@media (max-width: 520px) {
+
+    /*
+    body {
+        background-color: tomato;
+    }
+   */ 
+}
+
+.coluna {
+    flex: 1;
+    background-color: red;
+    margin: 5px;
 }
