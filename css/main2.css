@@ -1,17 +1,27 @@
-.container {
-    position: absolute;
-
-}
-
 .direito {
-    position: relative;
     background-color: blueviolet;
-    float: right;
+
 
 }
 
 .esquerdo {
-    position: relative;
     background-color: red;
-    float: left;
+
+}
+
+.rodape {
+    display: flex;
+    flex: wrap;
+}
+
+.coluna {
+    background-color: black;
+    width: 100%;
+    margin: 5px;
+}
+
+.item {
+    background-color: white;
+    margin: 5px;
+    fle
 }
