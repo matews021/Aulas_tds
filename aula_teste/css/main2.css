@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1d2120;
+}
+
+.recebe-tudo {
+    padding: 15px 50px 15px 50px; 
+}
+
+
+.linha {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+.coluna-direita, .coluna-esquerda {
+    width: 50%;
+}
+*/
+
+.item-menu {
+    display: block;
+    padding: 20px;
+}
+
+
+.itens-menu {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    border: 2px solid green;
+    border-radius: 25px;
+
+}
+
+
+.itens-menu .item-menu {
+    color: white;
+}
